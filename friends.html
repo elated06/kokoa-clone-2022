@@ -8,98 +8,199 @@
     <title>Friends - ChihiroTalk</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>110%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
-    </div>
+    <div id="bg-img"></div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-user-plus fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
-      </div>
-    </header>
-
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://postfiles.pstatic.net/MjAyMjAyMjhfMjcx/MDAxNjQ1OTc1Njc1MTg1._r0a8SpAWI69vVu3cEeCvsgZtg3iqtPqVeOgBj35VQEg.I5VdWt1ozBBQFmpNUPK4DFnNUoSSI7ZQbtjrEpZkM4Mg.PNG.elated06/chihiro.png?type=w966"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Chihiro</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
-          </div>
+    <div id="friends-body">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
+        <div class="status-bar__column">
+          <span>18:43</span>
         </div>
+        <div class="status-bar__column">
+          <span>110%</span>
+          <i class="fas fa-battery-full fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-user-plus fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+      </header>
+
+      <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i> Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+      </a>
+
+      <main class="friends-screen">
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://postfiles.pstatic.net/MjAyMjAyMjhfMjcx/MDAxNjQ1OTc1Njc1MTg1._r0a8SpAWI69vVu3cEeCvsgZtg3iqtPqVeOgBj35VQEg.I5VdWt1ozBBQFmpNUPK4DFnNUoSSI7ZQbtjrEpZkM4Mg.PNG.elated06/chihiro.png?type=w966"
-              class="user-component__avatar user-component__avatar--sm"
+              src="css/img/chihiro.jpeg"
+              class="user-component__avatar user-component__avatar--xl"
             />
             <div class="user-component__text">
-              <h4 class="user-component__title">Channel</h4>
+              <h4 class="user-component__title">Chihiro</h4>
               <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
             </div>
           </div>
-          <div class="user-component__column">
-            <span>2</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+          <div class="friends-screen__channel-header">
+            <span>Channel</span>
+            <i class="fas fa-chevron-up fa-xs"></i>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="css/img/channel.png"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4
+                  class="user-component__title user-component__title--not-bold"
+                >
+                  Channel
+                </h4>
+                <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+        <div class="friends-screen__channel">
+          <div class="friends-screen__channel-header">
+            <span>Friends</span>
+            <i class="fas fa-chevron-up fa-xs"></i>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="css/img/haku.png"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4
+                  class="user-component__title user-component__title--not-bold"
+                >
+                  Haku
+                </h4>
+                <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+              </div>
+            </div>
+            <div class="user-component__column"></div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="css/img/no-face.jpeg"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4
+                  class="user-component__title user-component__title--not-bold"
+                >
+                  Gaonasi
+                </h4>
+                <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+              </div>
+            </div>
+            <div class="user-component__column"></div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="css/img/yubaba.jpeg"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4
+                  class="user-component__title user-component__title--not-bold"
+                >
+                  Yubaba
+                </h4>
+                <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+              </div>
+            </div>
+            <div class="user-component__column"></div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="css/img/mother.jpeg"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4
+                  class="user-component__title user-component__title--not-bold"
+                >
+                  Mother
+                </h4>
+                <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+              </div>
+            </div>
+            <div class="user-component__column"></div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="css/img/father.jpeg"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4
+                  class="user-component__title user-component__title--not-bold"
+                >
+                  Father
+                </h4>
+                <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+              </div>
+            </div>
+            <div class="user-component__column"></div>
+          </div>
+        </div>
+      </main>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="#">
-            <span class="nav__notification">1</span>
-            <i class="far fa-comment fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="#">
-            <span class="nav__dot"></span>
-            <i class="fas fa-ellipsis-h fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__link" href="friends.html">
+              <i class="fas fa-user fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="#">
+              <span class="nav__notification">1</span>
+              <i class="far fa-comment fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="#"
+              ><i class="fas fa-search fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="#">
+              <span class="nav__dot"></span>
+              <i class="fas fa-ellipsis-h fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/aa3788f11b.js"

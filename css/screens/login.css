@@ -1,4 +1,8 @@
-#body {
+#login-body {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
   background-image: url("../img/bg-img.png");
   background-size: 500px 800px;
 }
